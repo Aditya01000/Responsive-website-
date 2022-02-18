@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website!</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=false;">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/3f0e5856af.js" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+  <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
+
+</head>
+
+<body style="overflow-x: hidden;">
+
+  <header>
+    <!-- navbar starts here -->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg "
+      style="z-index: 10000; position: fixed; top: 0px; width: 100%;">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#" style="font-family: 'Montserrat', sans-serif; font-weight: 600;">iCoder</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" 2>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Topics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Python</a></li>
+                <li><a class="dropdown-item" href="#">BootStrap</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+
+
+          </ul>
+          <form class="d-flex grid-four-buttons">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 45%;">
+            <button type="button" class="btn btn-outline-secondary"
+              style="color: white; border: 0.2px solid white;">Search</button>
+            <a href="./SignUp.html" class="btn btn-danger" style="margin-left: .7em;">Login</a>
+            <a  href="/"  class="btn btn-danger" style="margin-left: .7em;">SignUp</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- Cohrusel starts here -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"
+      style="z-index: 1; margin-top: 3.5rem; ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.picsum.photos/id/526/1200/500.jpg?hmac=-xeGOhiXip-bgFPj3hGsmQC5Acd8d0FrIYtTJk8nB1g" class="d-block w-100" alt="image1"
+            style="object-fit: cover; object-position:  center; aspect-ratio: 27 / 12 ;">
+          <div class="carousel-caption d-none d-md-block" style="background:rgba(0, 0, 0, 0.6);">
+            <h4 style="font-weight: 600; ">Welcome to iCoder</h4>
+            <p style="font-weight: 500;">Yo, wazzzup beautiful people :D</p>
+            <button type="button" class="btn btn-danger button4"
+              style="background: rgb(232, 19, 61);">Technology</button>
+            <button type="button" class="btn btn-primary button5">Web Development</button>
+            <button type="button" class="btn btn-success">Tech Fun</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.picsum.photos/id/1068/1200/500.jpg?hmac=QftHvV0wH4uzKc2Ju1w_hGfYEMQWu5LeFXAwbQ8GgPk" class="d-block w-100" alt="image2" style=" aspect-ratio: 27 / 12 ;">
+          <div class="carousel-caption d-none d-md-block" style="background:rgba(0, 0, 0, 0.6)">
+            <h5>Second slide heading</h5>
+            <p>This is 2nd slide of a man sitting.</p>
+            <button type="button" class="btn btn-danger button4"
+              style="background: rgb(232, 19, 61);">Technology</button>
+            <button type="button" class="btn btn-primary button5">Web Development</button>
+            <button type="button" class="btn btn-success">Tech Fun</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/cool-image-2.jpg" class="d-block w-100" alt="image3" style=" aspect-ratio: 27 / 12 ;">
+          <div class="carousel-caption d-none d-md-block" style="background:rgba(0, 0, 0, 0.7)">
+            <h5>Chairs</h5>
+            <p>Nothing special any thing here. LOL </p>
+            <button type="button" class="btn btn-danger button4"
+              style="background: rgb(232, 19, 61);">Technology</button>
+            <button type="button" class="btn btn-primary button5">Web Development</button>
+            <button type="button" class="btn btn-success">Tech Fun</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </header>
+  <!-- Cohrusel ends here -->
+
+
+
+    <!-- card content starts here -->
+  <main>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6" style="margin-top: 1em;">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">HTML</strong>
+              <h3 class="mb-0">Markup Language</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a beginner friendly language and it's used for Frontend</p>
+              <a href="https://html.com/" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+              <img src="https://i.picsum.photos/id/674/200/246.jpg?hmac=tfeTCl_Iaz4FC7q2F-C1GeLp_U17RsjGvYgFRDhJekY"
+                alt="">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 1em;">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">CSS</strong>
+              <h3 class="mb-0">Cascading Style Sheets</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">CSS (Cascading Style Sheets) allows you to create great-looking web pages.</p>
+              <a href="https://css-tricks.com/learn-css/" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+                <img src="https://i.picsum.photos/id/885/200/246.jpg?hmac=p7L9weSgsV7SQj6KyWykb7BGr26GupqfympH4X3FJYg"
+                  alt="">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                additional content.</p>
+              <a href="/world.html" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+              <img src="https://i.picsum.photos/id/674/200/246.jpg?hmac=tfeTCl_Iaz4FC7q2F-C1GeLp_U17RsjGvYgFRDhJekY"
+                alt="">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="/design.html" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+                <img src="https://i.picsum.photos/id/885/200/246.jpg?hmac=p7L9weSgsV7SQj6KyWykb7BGr26GupqfympH4X3FJYg"
+                  alt="">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                additional content.</p>
+              <a href="/world.html" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+              <img src="https://i.picsum.photos/id/674/200/246.jpg?hmac=tfeTCl_Iaz4FC7q2F-C1GeLp_U17RsjGvYgFRDhJekY"
+                alt="">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="/design.html" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+                <img src="https://i.picsum.photos/id/885/200/246.jpg?hmac=p7L9weSgsV7SQj6KyWykb7BGr26GupqfympH4X3FJYg"
+                  alt="">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                additional content.</p>
+              <a href="/world.html" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+              <img src="https://i.picsum.photos/id/674/200/246.jpg?hmac=tfeTCl_Iaz4FC7q2F-C1GeLp_U17RsjGvYgFRDhJekY"
+                alt="">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="/design.html" target="_blank" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <div class="col-auto d-none d-lg-block" style="margin-top: 14px; width:200px;">
+                <img src="https://i.picsum.photos/id/885/200/246.jpg?hmac=p7L9weSgsV7SQj6KyWykb7BGr26GupqfympH4X3FJYg"
+                  alt="">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- card content ends here -->
+
+  <!-- footer starts here  -->
+  <footer>
+    <div class="icons">
+      <ul class="icon-list">
+        <li><a href="#"><i class="fab fa-facebook-f" style=""></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter" style=""></i></a></li>
+        <li><a href="#"><i class="fab fa-discord" style=""></i></a></li>
+    </ul>
+      <p style="text-align: center; color: rgb(138, 138, 138);">Make sure to follow us on Social Media to get more updates regarding our upcoming projects.</p>
+      <p style="text-align: center;">Made by Aditya! ❤️ </p>
+      <p style="text-align: center;">⚡ WE ARE GODS! ⚡  </p>
+  </div>
+  </footer>
+  <!-- footer ends here -->
+</body>
+
+</html>
